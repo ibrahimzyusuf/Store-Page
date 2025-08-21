@@ -1,4 +1,3 @@
-import React from 'react'
 import { formatCurrency } from '../Utilities/formatCurrency'
 import { useShoppingCart } from '../Context/ShoppingCartContext'
 

@@ -1,4 +1,3 @@
-import React from 'react'
 import storeItems from "../Data/items.json";
 import StoreItem from '../Components/StoreItem'
 
