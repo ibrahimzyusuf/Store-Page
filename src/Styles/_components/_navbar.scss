@@ -1,0 +1,72 @@
+@use '../variables' as *;
+
+.navbar{
+    position: sticky;
+    width: 100%;
+    width: 100%;
+    background-color: $white;
+    padding: 1rem 1.5rem;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 2rem;
+
+    &_menu{
+        list-style: none;
+        display: flex;
+        align-items: center;
+        gap: 1.5rem;
+        }
+        .navbar_menu_item{
+            cursor: pointer;
+            text-decoration: none;
+            color: $text_color1;
+            font-size: 1.5rem;
+            font-weight: 500;
+            &:hover{
+                color: $text_color2;
+            }
+            &:focus{
+                outline: none;
+            }
+        }
+    
+    &_btn{
+        width: 3.5rem;
+        height: 3.5rem;
+        border: 0.8px solid $text_color2;
+        border-radius: 50%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: box-shadow 0.3s ease, transform 0.3s ease;
+        cursor: pointer;
+
+        &:hover{
+            box-shadow: 0 0 5px $secondary_color; 
+            transform: scale(1.05);
+        }
+
+        &_svg{
+            width: 1.8rem;
+            height: 1.8rem;
+        }
+        &_span{
+            width: 1.7rem;
+            height: 1.7rem;
+            background: $secondary_color;
+            border-radius: 50%;
+            color: $white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            transform: translate(25%,25%);
+            font-size: 1rem;
+        }
+    }
+}

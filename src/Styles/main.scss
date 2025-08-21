@@ -1,0 +1,16 @@
+@use './variables' as *;
+@use './_components/navbar';
+@use './_components/store';
+@use './_components/storeItem';
+@use './_components/shoppingCart';
+@use './_components/cartItem';
+
+#root{
+    background-color: $bg_color;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
