@@ -1,4 +1,3 @@
-import { NavLink } from "react-router-dom";
 import { useShoppingCart } from '../Context/ShoppingCartContext';
 
 const NavBar = () => {
@@ -8,7 +7,7 @@ return (
         <ul className='navbar_menu'>
             <li className='navbar_menu_item'>Home</li>
             <li className='navbar_menu_item'>About</li>
-            <li><NavLink className='navbar_menu_item' to={'/'}>Store</NavLink></li>
+            <li className='navbar_menu_item'>Store</li>
         </ul>
         {cartQuantity > 0 && (
             <button className='navbar_btn' onClick={openCart}>
