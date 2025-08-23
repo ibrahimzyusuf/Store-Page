@@ -14,7 +14,7 @@ const StoreItem = ({id,name,price,imgUrl}:StoreItemProps) => {
     const quantity=getItemQuantity(id);
 return (
     <div className='store_item'>
-        <img src={imgUrl} alt="item_image" />
+        <img src={imgUrl} alt="item_image" loading="lazy" />
         <div className="item_info">
             <span>{name}</span>
             <span>{formatCurrency(price)}</span>

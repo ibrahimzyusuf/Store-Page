@@ -18,7 +18,7 @@ return (
         <img
         src={item.imgUrl}
         alt={item.name}
-        className="cart-item-img"
+        className="cart-item-img" loading="lazy"
         />
         <div className="cart-item-info">
             <div className="cart-item-name">
