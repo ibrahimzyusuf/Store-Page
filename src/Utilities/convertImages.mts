@@ -14,7 +14,7 @@ async function convertImagesToWebp() {
         const outputPath = path.join(outputFolder, `${path.parse(file).name}.webp`);
 
         await sharp(inputPath)
-        .webp({ quality: 75 }) 
+        .webp({ quality: 80 }) 
         .toFile(outputPath);
     }
 
