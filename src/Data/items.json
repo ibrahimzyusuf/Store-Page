@@ -3,24 +3,24 @@
     "id": 1,
     "name": "Book",
     "price": 10.99,
-    "imgUrl": "../assets/imgs/book.webp"
+    "imgUrl": "/images/banana.webp"
   },
   {
     "id": 2,
     "name": "Computer",
     "price": 1199,
-    "imgUrl": "../assets/imgs/computer.webp"
+    "imgUrl": "/images/computer.webp"
   },
   {
     "id": 3,
     "name": "Banana",
     "price": 1.05,
-    "imgUrl": "../assets/imgs/banana.webp"
+    "imgUrl": "/images/banana.webp"
   },
   {
     "id": 4,
     "name": "Car",
     "price": 14000,
-    "imgUrl": "../assets/imgs/car.webp"
+    "imgUrl": "/images/car.webp"
   }
 ]
